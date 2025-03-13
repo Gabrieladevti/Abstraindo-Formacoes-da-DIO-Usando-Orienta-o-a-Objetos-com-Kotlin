@@ -30,48 +30,11 @@ O projeto é composto por:
    ```bash
    git clone https://github.com/seu-usuario/Abstraindo-Formacoes-DIO-Kotlin.git
    2. Abra o projeto em sua IDE preferida (exemplo: IntelliJ IDEA, Android Studio).
+   3. Compile e execute o projeto.
+   4. No terminal ou na interface, você poderá visualizar os cursos e usuários cadastrados, além de realizar manipulações como adicionar novos cursos e usuários.
 
+   Exemplos de Uso
+   Criar um novo curso:val curso = Curso("Kotlin Básico", "Introdução ao Kotlin", 40)
+   Criar um novo usuário e matricular em um curso:val usuario = Usuario("João","joao@dominio.com")usuario.matricularCurso(curso)
 
-3. Compile e execute o projeto.
-
-
-4. No terminal ou na interface, você poderá visualizar os cursos e usuários cadastrados, além de realizar manipulações como adicionar novos cursos e usuários.
-
-
-
-Exemplos de Uso
-
-Criar um novo curso:
-
-val curso = Curso("Kotlin Básico", "Introdução ao Kotlin", 40)
-
-Criar um novo usuário e matricular em um curso:
-
-val usuario = Usuario("João", "joao@dominio.com")
-usuario.matricularCurso(curso)
-
-Listar cursos de um usuário:
-
-usuario.listarCursos()
-
-
-Contribuições
-
-Se você deseja contribuir com este projeto, siga os seguintes passos:
-
-1. Faça um fork deste repositório.
-
-
-2. Crie uma branch para sua feature (git checkout -b minha-feature).
-
-
-3. Realize as alterações desejadas.
-
-
-4. Commit suas mudanças (git commit -am 'Adicionando nova feature').
-
-
-5. Envie para o repositório remoto (git push origin minha-feature).
-
-
-6. Abra um pull request.
+   Listar cursos de um usuário:usuario.listarCursos()
